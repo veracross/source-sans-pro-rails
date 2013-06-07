@@ -1,0 +1,12 @@
+@mixin font($name, $weight, $style) {
+  @font-face {
+   font-family: 'SourceSansPro';
+      src: font-url($name + '.eot');
+      src: font-url($name + '.eot?#iefix') format('embedded-opentype'),
+           font-url($name + '.woff') format('woff')
+           font-url($name + '.ttf') format('truetype')
+           font-url($name + '.svg#' + $name) format('svg');
+   font-weight: $weight;
+   font-style: $style;
+  }
+}

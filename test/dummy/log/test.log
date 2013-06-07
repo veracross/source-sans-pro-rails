@@ -1,0 +1,952 @@
+Started GET "/assets/sourcesanspro-regular.eot" for 127.0.0.1 at 2013-06-07 15:46:19 -0400
+Served asset /sourcesanspro-regular.eot - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/sourcesanspro-regular.eot"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack-test (0.6.2) lib/rack/mock_session.rb:30:in `request'
+  rack-test (0.6.2) lib/rack/test.rb:230:in `process_request'
+  rack-test (0.6.2) lib/rack/test.rb:123:in `request'
+  actionpack (3.2.13) lib/action_dispatch/testing/integration.rb:299:in `process'
+  actionpack (3.2.13) lib/action_dispatch/testing/integration.rb:33:in `get'
+  actionpack (3.2.13) lib/action_dispatch/testing/integration.rb:333:in `block (2 levels) in <module:Runner>'
+  /Users/jeff/workspace/source-sans-pro-rails/test/source_sans_pro_test.rb:11:in `block in <class:FontAwesomeRailsTest>'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:949:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit/testcase.rb:17:in `run'
+  activesupport (3.2.13) lib/active_support/testing/setup_and_teardown.rb:36:in `block in run'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:425:in `_run__571704895679524441__setup__2369188837432332505__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_setup_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activesupport (3.2.13) lib/active_support/testing/setup_and_teardown.rb:35:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:787:in `block in _run_suite'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:780:in `map'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:780:in `_run_suite'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:565:in `block in _run_suites'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `each'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `_run_suites'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:746:in `_run_anything'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:909:in `run_tests'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:896:in `block in _run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:895:in `each'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:895:in `_run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:884:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:21:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:326:in `block (2 levels) in autorun'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:27:in `run_once'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:325:in `block in autorun'
+
+
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 15:46:19 -0400
+Served asset /source-sans-pro.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/source-sans-pro.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack-test (0.6.2) lib/rack/mock_session.rb:30:in `request'
+  rack-test (0.6.2) lib/rack/test.rb:230:in `process_request'
+  rack-test (0.6.2) lib/rack/test.rb:123:in `request'
+  actionpack (3.2.13) lib/action_dispatch/testing/integration.rb:299:in `process'
+  actionpack (3.2.13) lib/action_dispatch/testing/integration.rb:33:in `get'
+  actionpack (3.2.13) lib/action_dispatch/testing/integration.rb:333:in `block (2 levels) in <module:Runner>'
+  /Users/jeff/workspace/source-sans-pro-rails/test/source_sans_pro_test.rb:20:in `block in <class:FontAwesomeRailsTest>'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:949:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit/testcase.rb:17:in `run'
+  activesupport (3.2.13) lib/active_support/testing/setup_and_teardown.rb:36:in `block in run'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:425:in `_run__571704895679524441__setup__2369188837432332505__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_setup_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activesupport (3.2.13) lib/active_support/testing/setup_and_teardown.rb:35:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:787:in `block in _run_suite'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:780:in `map'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:780:in `_run_suite'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:565:in `block in _run_suites'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `each'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `_run_suites'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:746:in `_run_anything'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:909:in `run_tests'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:896:in `block in _run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:895:in `each'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:895:in `_run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:884:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:21:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:326:in `block (2 levels) in autorun'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:27:in `run_once'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:325:in `block in autorun'
+
+
+Started GET "/assets/sourcesanspro-regular.eot" for 127.0.0.1 at 2013-06-07 15:46:54 -0400
+Served asset /sourcesanspro-regular.eot - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/sourcesanspro-regular.eot"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack-test (0.6.2) lib/rack/mock_session.rb:30:in `request'
+  rack-test (0.6.2) lib/rack/test.rb:230:in `process_request'
+  rack-test (0.6.2) lib/rack/test.rb:123:in `request'
+  actionpack (3.2.13) lib/action_dispatch/testing/integration.rb:299:in `process'
+  actionpack (3.2.13) lib/action_dispatch/testing/integration.rb:33:in `get'
+  actionpack (3.2.13) lib/action_dispatch/testing/integration.rb:333:in `block (2 levels) in <module:Runner>'
+  /Users/jeff/workspace/source-sans-pro-rails/test/source_sans_pro_test.rb:11:in `block in <class:SourceSansProTest>'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:949:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit/testcase.rb:17:in `run'
+  activesupport (3.2.13) lib/active_support/testing/setup_and_teardown.rb:36:in `block in run'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:425:in `_run__165390978125656721__setup__1150529527055350622__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_setup_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activesupport (3.2.13) lib/active_support/testing/setup_and_teardown.rb:35:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:787:in `block in _run_suite'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:780:in `map'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:780:in `_run_suite'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:565:in `block in _run_suites'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `each'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `_run_suites'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:746:in `_run_anything'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:909:in `run_tests'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:896:in `block in _run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:895:in `each'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:895:in `_run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:884:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:21:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:326:in `block (2 levels) in autorun'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:27:in `run_once'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:325:in `block in autorun'
+
+
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 15:46:54 -0400
+Served asset /source-sans-pro.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/source-sans-pro.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack-test (0.6.2) lib/rack/mock_session.rb:30:in `request'
+  rack-test (0.6.2) lib/rack/test.rb:230:in `process_request'
+  rack-test (0.6.2) lib/rack/test.rb:123:in `request'
+  actionpack (3.2.13) lib/action_dispatch/testing/integration.rb:299:in `process'
+  actionpack (3.2.13) lib/action_dispatch/testing/integration.rb:33:in `get'
+  actionpack (3.2.13) lib/action_dispatch/testing/integration.rb:333:in `block (2 levels) in <module:Runner>'
+  /Users/jeff/workspace/source-sans-pro-rails/test/source_sans_pro_test.rb:20:in `block in <class:SourceSansProTest>'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:949:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit/testcase.rb:17:in `run'
+  activesupport (3.2.13) lib/active_support/testing/setup_and_teardown.rb:36:in `block in run'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:425:in `_run__165390978125656721__setup__1150529527055350622__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_setup_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activesupport (3.2.13) lib/active_support/testing/setup_and_teardown.rb:35:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:787:in `block in _run_suite'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:780:in `map'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:780:in `_run_suite'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:565:in `block in _run_suites'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `each'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `_run_suites'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:746:in `_run_anything'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:909:in `run_tests'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:896:in `block in _run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:895:in `each'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:895:in `_run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:884:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:21:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:326:in `block (2 levels) in autorun'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:27:in `run_once'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:325:in `block in autorun'
+
+
+Started GET "/assets/sourcesanspro-regular.eot" for 127.0.0.1 at 2013-06-07 15:47:13 -0400
+Served asset /sourcesanspro-regular.eot - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/sourcesanspro-regular.eot"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack-test (0.6.2) lib/rack/mock_session.rb:30:in `request'
+  rack-test (0.6.2) lib/rack/test.rb:230:in `process_request'
+  rack-test (0.6.2) lib/rack/test.rb:123:in `request'
+  actionpack (3.2.13) lib/action_dispatch/testing/integration.rb:299:in `process'
+  actionpack (3.2.13) lib/action_dispatch/testing/integration.rb:33:in `get'
+  actionpack (3.2.13) lib/action_dispatch/testing/integration.rb:333:in `block (2 levels) in <module:Runner>'
+  /Users/jeff/workspace/source-sans-pro-rails/test/source_sans_pro_test.rb:11:in `block in <class:SourceSansProTest>'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:949:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit/testcase.rb:17:in `run'
+  activesupport (3.2.13) lib/active_support/testing/setup_and_teardown.rb:36:in `block in run'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:425:in `_run__2369183075529928076__setup__1128233628999220084__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_setup_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activesupport (3.2.13) lib/active_support/testing/setup_and_teardown.rb:35:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:787:in `block in _run_suite'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:780:in `map'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:780:in `_run_suite'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:565:in `block in _run_suites'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `each'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `_run_suites'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:746:in `_run_anything'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:909:in `run_tests'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:896:in `block in _run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:895:in `each'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:895:in `_run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:884:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:21:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:326:in `block (2 levels) in autorun'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:27:in `run_once'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:325:in `block in autorun'
+
+
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 15:47:13 -0400
+Served asset /source-sans-pro.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/source-sans-pro.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack-test (0.6.2) lib/rack/mock_session.rb:30:in `request'
+  rack-test (0.6.2) lib/rack/test.rb:230:in `process_request'
+  rack-test (0.6.2) lib/rack/test.rb:123:in `request'
+  actionpack (3.2.13) lib/action_dispatch/testing/integration.rb:299:in `process'
+  actionpack (3.2.13) lib/action_dispatch/testing/integration.rb:33:in `get'
+  actionpack (3.2.13) lib/action_dispatch/testing/integration.rb:333:in `block (2 levels) in <module:Runner>'
+  /Users/jeff/workspace/source-sans-pro-rails/test/source_sans_pro_test.rb:20:in `block in <class:SourceSansProTest>'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:949:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit/testcase.rb:17:in `run'
+  activesupport (3.2.13) lib/active_support/testing/setup_and_teardown.rb:36:in `block in run'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:425:in `_run__2369183075529928076__setup__1128233628999220084__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_setup_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activesupport (3.2.13) lib/active_support/testing/setup_and_teardown.rb:35:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:787:in `block in _run_suite'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:780:in `map'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:780:in `_run_suite'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:565:in `block in _run_suites'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `each'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `_run_suites'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:746:in `_run_anything'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:909:in `run_tests'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:896:in `block in _run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:895:in `each'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:895:in `_run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:884:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:21:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:326:in `block (2 levels) in autorun'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:27:in `run_once'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:325:in `block in autorun'
+
+
+Started GET "/assets/sourcesanspro-regular.eot" for 127.0.0.1 at 2013-06-07 15:47:48 -0400
+Served asset /sourcesanspro-regular.eot - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/sourcesanspro-regular.eot"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack-test (0.6.2) lib/rack/mock_session.rb:30:in `request'
+  rack-test (0.6.2) lib/rack/test.rb:230:in `process_request'
+  rack-test (0.6.2) lib/rack/test.rb:123:in `request'
+  actionpack (3.2.13) lib/action_dispatch/testing/integration.rb:299:in `process'
+  actionpack (3.2.13) lib/action_dispatch/testing/integration.rb:33:in `get'
+  actionpack (3.2.13) lib/action_dispatch/testing/integration.rb:333:in `block (2 levels) in <module:Runner>'
+  /Users/jeff/workspace/source-sans-pro-rails/test/source_sans_pro_test.rb:11:in `block in <class:SourceSansProTest>'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:949:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit/testcase.rb:17:in `run'
+  activesupport (3.2.13) lib/active_support/testing/setup_and_teardown.rb:36:in `block in run'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:425:in `_run__4521474723195413073__setup__857559051343159298__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_setup_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activesupport (3.2.13) lib/active_support/testing/setup_and_teardown.rb:35:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:787:in `block in _run_suite'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:780:in `map'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:780:in `_run_suite'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:565:in `block in _run_suites'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `each'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `_run_suites'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:746:in `_run_anything'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:909:in `run_tests'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:896:in `block in _run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:895:in `each'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:895:in `_run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:884:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:21:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:326:in `block (2 levels) in autorun'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:27:in `run_once'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:325:in `block in autorun'
+
+
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 15:47:48 -0400
+Served asset /source-sans-pro.css - 404 Not Found (1ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/source-sans-pro.css"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack-test (0.6.2) lib/rack/mock_session.rb:30:in `request'
+  rack-test (0.6.2) lib/rack/test.rb:230:in `process_request'
+  rack-test (0.6.2) lib/rack/test.rb:123:in `request'
+  actionpack (3.2.13) lib/action_dispatch/testing/integration.rb:299:in `process'
+  actionpack (3.2.13) lib/action_dispatch/testing/integration.rb:33:in `get'
+  actionpack (3.2.13) lib/action_dispatch/testing/integration.rb:333:in `block (2 levels) in <module:Runner>'
+  /Users/jeff/workspace/source-sans-pro-rails/test/source_sans_pro_test.rb:20:in `block in <class:SourceSansProTest>'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:949:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit/testcase.rb:17:in `run'
+  activesupport (3.2.13) lib/active_support/testing/setup_and_teardown.rb:36:in `block in run'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:425:in `_run__4521474723195413073__setup__857559051343159298__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_setup_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activesupport (3.2.13) lib/active_support/testing/setup_and_teardown.rb:35:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:787:in `block in _run_suite'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:780:in `map'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:780:in `_run_suite'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:565:in `block in _run_suites'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `each'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `_run_suites'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:746:in `_run_anything'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:909:in `run_tests'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:896:in `block in _run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:895:in `each'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:895:in `_run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:884:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:21:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:326:in `block (2 levels) in autorun'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:27:in `run_once'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:325:in `block in autorun'
+
+
+Started GET "/assets/sourcesanspro-regular.eot" for 127.0.0.1 at 2013-06-07 15:49:09 -0400
+Served asset /sourcesanspro-regular.eot - 404 Not Found (2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/sourcesanspro-regular.eot"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack-test (0.6.2) lib/rack/mock_session.rb:30:in `request'
+  rack-test (0.6.2) lib/rack/test.rb:230:in `process_request'
+  rack-test (0.6.2) lib/rack/test.rb:123:in `request'
+  actionpack (3.2.13) lib/action_dispatch/testing/integration.rb:299:in `process'
+  actionpack (3.2.13) lib/action_dispatch/testing/integration.rb:33:in `get'
+  actionpack (3.2.13) lib/action_dispatch/testing/integration.rb:333:in `block (2 levels) in <module:Runner>'
+  /Users/jeff/workspace/source-sans-pro-rails/test/source_sans_pro_test.rb:11:in `block in <class:SourceSansProTest>'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:949:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit/testcase.rb:17:in `run'
+  activesupport (3.2.13) lib/active_support/testing/setup_and_teardown.rb:36:in `block in run'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:425:in `_run__3640528987917236262__setup__4017335125608209871__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_setup_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  activesupport (3.2.13) lib/active_support/testing/setup_and_teardown.rb:35:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:787:in `block in _run_suite'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:780:in `map'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:780:in `_run_suite'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:565:in `block in _run_suites'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `each'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:563:in `_run_suites'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:746:in `_run_anything'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:909:in `run_tests'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:896:in `block in _run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:895:in `each'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:895:in `_run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/minitest/unit.rb:884:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:21:in `run'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:326:in `block (2 levels) in autorun'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:27:in `run_once'
+  /Users/jeff/.rbenv/versions/1.9.3-p392/lib/ruby/1.9.1/test/unit.rb:325:in `block in autorun'
+
+
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 15:49:09 -0400
+Compiled source-sans-pro.css  (31ms)  (pid 54252)
+Served asset /source-sans-pro.css - 200 OK (47ms)
+Started GET "/assets/sourcesanspro-regular-webfont.eot" for 127.0.0.1 at 2013-06-07 15:53:26 -0400
+Served asset /sourcesanspro-regular-webfont.eot - 200 OK (627ms)
+Started GET "/assets/sourcesanspro-regular-webfont.ttf" for 127.0.0.1 at 2013-06-07 15:53:27 -0400
+Served asset /sourcesanspro-regular-webfont.ttf - 200 OK (8ms)
+Started GET "/assets/sourcesanspro-regular-webfont.woff" for 127.0.0.1 at 2013-06-07 15:53:27 -0400
+Served asset /sourcesanspro-regular-webfont.woff - 200 OK (43ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 15:53:27 -0400
+Compiled source-sans-pro.css  (29ms)  (pid 54447)
+Served asset /source-sans-pro.css - 200 OK (79ms)
+Started GET "/assets/sourcesanspro-regular-webfont.eot" for 127.0.0.1 at 2013-06-07 15:54:14 -0400
+Served asset /sourcesanspro-regular-webfont.eot - 200 OK (8ms)
+Started GET "/assets/sourcesanspro-regular-webfont.ttf" for 127.0.0.1 at 2013-06-07 15:54:14 -0400
+Served asset /sourcesanspro-regular-webfont.ttf - 200 OK (10ms)
+Started GET "/assets/sourcesanspro-regular-webfont.woff" for 127.0.0.1 at 2013-06-07 15:54:14 -0400
+Served asset /sourcesanspro-regular-webfont.woff - 200 OK (9ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 15:54:14 -0400
+Compiled source-sans-pro.css  (30ms)  (pid 54538)
+Served asset /source-sans-pro.css - 200 OK (44ms)
+Started GET "/assets/sourcesanspro-regular-webfont.eot" for 127.0.0.1 at 2013-06-07 15:59:57 -0400
+Served asset /sourcesanspro-regular-webfont.eot - 200 OK (8ms)
+Started GET "/assets/sourcesanspro-regular-webfont.ttf" for 127.0.0.1 at 2013-06-07 15:59:57 -0400
+Served asset /sourcesanspro-regular-webfont.ttf - 200 OK (9ms)
+Started GET "/assets/sourcesanspro-regular-webfont.woff" for 127.0.0.1 at 2013-06-07 15:59:57 -0400
+Served asset /sourcesanspro-regular-webfont.woff - 200 OK (9ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 15:59:57 -0400
+Error compiling asset source-sans-pro.css:
+Sass::SyntaxError: Invalid CSS after "@include ": expected identifier, was "'source-sans-pr..."
+  (in /Users/jeff/workspace/source-sans-pro-rails/app/assets/stylesheets/source-sans-pro.css.scss)
+Served asset /source-sans-pro.css - 500 Internal Server Error
+
+
+Started GET "/assets/sourcesanspro-regular-webfont.eot" for 127.0.0.1 at 2013-06-07 16:00:54 -0400
+Served asset /sourcesanspro-regular-webfont.eot - 200 OK (9ms)
+Started GET "/assets/sourcesanspro-regular-webfont.ttf" for 127.0.0.1 at 2013-06-07 16:00:54 -0400
+Served asset /sourcesanspro-regular-webfont.ttf - 200 OK (8ms)
+Started GET "/assets/sourcesanspro-regular-webfont.woff" for 127.0.0.1 at 2013-06-07 16:00:54 -0400
+Served asset /sourcesanspro-regular-webfont.woff - 200 OK (8ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 16:00:54 -0400
+Compiled source-sans-pro.css  (32ms)  (pid 55225)
+Served asset /source-sans-pro.css - 200 OK (48ms)
+Started GET "/assets/sourcesanspro-regular-webfont.eot" for 127.0.0.1 at 2013-06-07 16:03:46 -0400
+Served asset /sourcesanspro-regular-webfont.eot - 200 OK (10ms)
+Started GET "/assets/sourcesanspro-regular-webfont.ttf" for 127.0.0.1 at 2013-06-07 16:03:46 -0400
+Served asset /sourcesanspro-regular-webfont.ttf - 200 OK (8ms)
+Started GET "/assets/sourcesanspro-regular-webfont.woff" for 127.0.0.1 at 2013-06-07 16:03:46 -0400
+Served asset /sourcesanspro-regular-webfont.woff - 200 OK (9ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 16:03:46 -0400
+Compiled source-sans-pro.css  (35ms)  (pid 55383)
+Served asset /source-sans-pro.css - 200 OK (53ms)
+Started GET "/assets/source-sans-pro/light.css" for 127.0.0.1 at 2013-06-07 16:03:46 -0400
+Compiled source-sans-pro/light.css  (7ms)  (pid 55383)
+Served asset /source-sans-pro/light.css - 200 OK (52ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 16:03:46 -0400
+Served asset /source-sans-pro.css - 200 OK (0ms)
+Started GET "/assets/sourcesanspro-regular-webfont.eot" for 127.0.0.1 at 2013-06-07 16:06:06 -0400
+Served asset /sourcesanspro-regular-webfont.eot - 200 OK (8ms)
+Started GET "/assets/sourcesanspro-regular-webfont.ttf" for 127.0.0.1 at 2013-06-07 16:06:06 -0400
+Served asset /sourcesanspro-regular-webfont.ttf - 200 OK (9ms)
+Started GET "/assets/sourcesanspro-regular-webfont.woff" for 127.0.0.1 at 2013-06-07 16:06:06 -0400
+Served asset /sourcesanspro-regular-webfont.woff - 200 OK (8ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 16:06:06 -0400
+Compiled source-sans-pro.css  (32ms)  (pid 55486)
+Served asset /source-sans-pro.css - 200 OK (47ms)
+Started GET "/assets/source-sans-pro/light.css" for 127.0.0.1 at 2013-06-07 16:06:06 -0400
+Compiled source-sans-pro/light.css  (6ms)  (pid 55486)
+Served asset /source-sans-pro/light.css - 200 OK (48ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 16:06:06 -0400
+Served asset /source-sans-pro.css - 200 OK (0ms)
+Started GET "/assets/sourcesanspro-regular-webfont.eot" for 127.0.0.1 at 2013-06-07 16:06:29 -0400
+Served asset /sourcesanspro-regular-webfont.eot - 200 OK (8ms)
+Started GET "/assets/sourcesanspro-regular-webfont.ttf" for 127.0.0.1 at 2013-06-07 16:06:29 -0400
+Served asset /sourcesanspro-regular-webfont.ttf - 200 OK (8ms)
+Started GET "/assets/sourcesanspro-regular-webfont.woff" for 127.0.0.1 at 2013-06-07 16:06:29 -0400
+Served asset /sourcesanspro-regular-webfont.woff - 200 OK (8ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 16:06:29 -0400
+Compiled source-sans-pro.css  (33ms)  (pid 55548)
+Served asset /source-sans-pro.css - 200 OK (48ms)
+Started GET "/assets/source-sans-pro/light.css" for 127.0.0.1 at 2013-06-07 16:06:29 -0400
+Compiled source-sans-pro/light.css  (6ms)  (pid 55548)
+Served asset /source-sans-pro/light.css - 200 OK (48ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 16:06:29 -0400
+Served asset /source-sans-pro.css - 200 OK (0ms)
+Started GET "/assets/sourcesanspro-regular-webfont.eot" for 127.0.0.1 at 2013-06-07 16:07:41 -0400
+Served asset /sourcesanspro-regular-webfont.eot - 200 OK (8ms)
+Started GET "/assets/sourcesanspro-regular-webfont.ttf" for 127.0.0.1 at 2013-06-07 16:07:41 -0400
+Served asset /sourcesanspro-regular-webfont.ttf - 200 OK (9ms)
+Started GET "/assets/sourcesanspro-regular-webfont.woff" for 127.0.0.1 at 2013-06-07 16:07:41 -0400
+Served asset /sourcesanspro-regular-webfont.woff - 200 OK (8ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 16:07:41 -0400
+Compiled source-sans-pro.css  (32ms)  (pid 55624)
+Served asset /source-sans-pro.css - 200 OK (47ms)
+Started GET "/assets/source-sans-pro/light.css" for 127.0.0.1 at 2013-06-07 16:07:41 -0400
+Compiled source-sans-pro/light.css  (6ms)  (pid 55624)
+Served asset /source-sans-pro/light.css - 200 OK (47ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 16:07:41 -0400
+Served asset /source-sans-pro.css - 200 OK (0ms)
+Started GET "/assets/sourcesanspro-regular-webfont.eot" for 127.0.0.1 at 2013-06-07 16:12:28 -0400
+Served asset /sourcesanspro-regular-webfont.eot - 200 OK (8ms)
+Started GET "/assets/sourcesanspro-regular-webfont.ttf" for 127.0.0.1 at 2013-06-07 16:12:28 -0400
+Served asset /sourcesanspro-regular-webfont.ttf - 200 OK (8ms)
+Started GET "/assets/sourcesanspro-regular-webfont.woff" for 127.0.0.1 at 2013-06-07 16:12:28 -0400
+Served asset /sourcesanspro-regular-webfont.woff - 200 OK (9ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 16:12:28 -0400
+Compiled source-sans-pro.css  (33ms)  (pid 55990)
+Served asset /source-sans-pro.css - 200 OK (48ms)
+Started GET "/assets/source-sans-pro/black.css" for 127.0.0.1 at 2013-06-07 16:12:28 -0400
+Compiled source-sans-pro/black.css  (6ms)  (pid 55990)
+Served asset /source-sans-pro/black.css - 200 OK (47ms)
+Started GET "/assets/source-sans-pro/bold.css" for 127.0.0.1 at 2013-06-07 16:12:28 -0400
+Compiled source-sans-pro/bold.css  (6ms)  (pid 55990)
+Served asset /source-sans-pro/bold.css - 200 OK (20ms)
+Started GET "/assets/source-sans-pro/extralight.css" for 127.0.0.1 at 2013-06-07 16:12:28 -0400
+Compiled source-sans-pro/extralight.css  (6ms)  (pid 55990)
+Served asset /source-sans-pro/extralight.css - 200 OK (21ms)
+Started GET "/assets/source-sans-pro/italic.css" for 127.0.0.1 at 2013-06-07 16:12:28 -0400
+Compiled source-sans-pro/italic.css  (6ms)  (pid 55990)
+Served asset /source-sans-pro/italic.css - 200 OK (21ms)
+Started GET "/assets/source-sans-pro/light.css" for 127.0.0.1 at 2013-06-07 16:12:28 -0400
+Compiled source-sans-pro/light.css  (6ms)  (pid 55990)
+Served asset /source-sans-pro/light.css - 200 OK (49ms)
+Started GET "/assets/source-sans-pro/regular.css" for 127.0.0.1 at 2013-06-07 16:12:28 -0400
+Compiled source-sans-pro/regular.css  (6ms)  (pid 55990)
+Served asset /source-sans-pro/regular.css - 200 OK (20ms)
+Started GET "/assets/source-sans-pro/semibold.css" for 127.0.0.1 at 2013-06-07 16:12:28 -0400
+Compiled source-sans-pro/semibold.css  (6ms)  (pid 55990)
+Served asset /source-sans-pro/semibold.css - 200 OK (19ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 16:12:28 -0400
+Served asset /source-sans-pro.css - 200 OK (0ms)
+Started GET "/assets/sourcesanspro-regular-webfont.eot" for 127.0.0.1 at 2013-06-07 16:13:14 -0400
+Served asset /sourcesanspro-regular-webfont.eot - 200 OK (8ms)
+Started GET "/assets/sourcesanspro-regular-webfont.ttf" for 127.0.0.1 at 2013-06-07 16:13:14 -0400
+Served asset /sourcesanspro-regular-webfont.ttf - 200 OK (8ms)
+Started GET "/assets/sourcesanspro-regular-webfont.woff" for 127.0.0.1 at 2013-06-07 16:13:14 -0400
+Served asset /sourcesanspro-regular-webfont.woff - 200 OK (9ms)
+Started GET "/assets/sourcesanspro-regular-webfont.svg" for 127.0.0.1 at 2013-06-07 16:13:14 -0400
+Served asset /sourcesanspro-regular-webfont.svg - 200 OK (9ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 16:13:14 -0400
+Compiled source-sans-pro.css  (32ms)  (pid 56061)
+Served asset /source-sans-pro.css - 200 OK (72ms)
+Started GET "/assets/source-sans-pro/black.css" for 127.0.0.1 at 2013-06-07 16:13:14 -0400
+Compiled source-sans-pro/black.css  (6ms)  (pid 56061)
+Served asset /source-sans-pro/black.css - 200 OK (23ms)
+Started GET "/assets/source-sans-pro/bold.css" for 127.0.0.1 at 2013-06-07 16:13:14 -0400
+Compiled source-sans-pro/bold.css  (7ms)  (pid 56061)
+Served asset /source-sans-pro/bold.css - 200 OK (20ms)
+Started GET "/assets/source-sans-pro/extralight.css" for 127.0.0.1 at 2013-06-07 16:13:14 -0400
+Compiled source-sans-pro/extralight.css  (6ms)  (pid 56061)
+Served asset /source-sans-pro/extralight.css - 200 OK (22ms)
+Started GET "/assets/source-sans-pro/italic.css" for 127.0.0.1 at 2013-06-07 16:13:14 -0400
+Compiled source-sans-pro/italic.css  (9ms)  (pid 56061)
+Served asset /source-sans-pro/italic.css - 200 OK (27ms)
+Started GET "/assets/source-sans-pro/light.css" for 127.0.0.1 at 2013-06-07 16:13:14 -0400
+Compiled source-sans-pro/light.css  (6ms)  (pid 56061)
+Served asset /source-sans-pro/light.css - 200 OK (51ms)
+Started GET "/assets/source-sans-pro/regular.css" for 127.0.0.1 at 2013-06-07 16:13:14 -0400
+Compiled source-sans-pro/regular.css  (6ms)  (pid 56061)
+Served asset /source-sans-pro/regular.css - 200 OK (22ms)
+Started GET "/assets/source-sans-pro/semibold.css" for 127.0.0.1 at 2013-06-07 16:13:14 -0400
+Compiled source-sans-pro/semibold.css  (6ms)  (pid 56061)
+Served asset /source-sans-pro/semibold.css - 200 OK (20ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 16:13:14 -0400
+Served asset /source-sans-pro.css - 200 OK (0ms)
+Started GET "/assets/sourcesanspro-regular-webfont.eot" for 127.0.0.1 at 2013-06-07 16:14:31 -0400
+Served asset /sourcesanspro-regular-webfont.eot - 200 OK (8ms)
+Started GET "/assets/sourcesanspro-regular-webfont.ttf" for 127.0.0.1 at 2013-06-07 16:14:31 -0400
+Served asset /sourcesanspro-regular-webfont.ttf - 200 OK (8ms)
+Started GET "/assets/sourcesanspro-regular-webfont.woff" for 127.0.0.1 at 2013-06-07 16:14:31 -0400
+Served asset /sourcesanspro-regular-webfont.woff - 200 OK (8ms)
+Started GET "/assets/sourcesanspro-regular-webfont.svg" for 127.0.0.1 at 2013-06-07 16:14:31 -0400
+Served asset /sourcesanspro-regular-webfont.svg - 200 OK (8ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 16:14:31 -0400
+Compiled source-sans-pro/black.css  (12ms)  (pid 56174)
+Compiled source-sans-pro/bold.css  (6ms)  (pid 56174)
+Compiled source-sans-pro/extralight.css  (6ms)  (pid 56174)
+Compiled source-sans-pro/font-helper.css  (1ms)  (pid 56174)
+Compiled source-sans-pro/italic.css  (6ms)  (pid 56174)
+Compiled source-sans-pro/light.css  (7ms)  (pid 56174)
+Compiled source-sans-pro/regular.css  (6ms)  (pid 56174)
+Compiled source-sans-pro/semibold.css  (6ms)  (pid 56174)
+Compiled source-sans-pro.css  (191ms)  (pid 56174)
+Served asset /source-sans-pro.css - 200 OK (206ms)
+Started GET "/assets/source-sans-pro/black.css" for 127.0.0.1 at 2013-06-07 16:14:31 -0400
+Served asset /source-sans-pro/black.css - 200 OK (9ms)
+Started GET "/assets/source-sans-pro/bold.css" for 127.0.0.1 at 2013-06-07 16:14:31 -0400
+Served asset /source-sans-pro/bold.css - 200 OK (6ms)
+Started GET "/assets/source-sans-pro/extralight.css" for 127.0.0.1 at 2013-06-07 16:14:31 -0400
+Served asset /source-sans-pro/extralight.css - 200 OK (6ms)
+Started GET "/assets/source-sans-pro/italic.css" for 127.0.0.1 at 2013-06-07 16:14:31 -0400
+Served asset /source-sans-pro/italic.css - 200 OK (6ms)
+Started GET "/assets/source-sans-pro/light.css" for 127.0.0.1 at 2013-06-07 16:14:31 -0400
+Served asset /source-sans-pro/light.css - 200 OK (6ms)
+Started GET "/assets/source-sans-pro/regular.css" for 127.0.0.1 at 2013-06-07 16:14:31 -0400
+Served asset /source-sans-pro/regular.css - 200 OK (6ms)
+Started GET "/assets/source-sans-pro/semibold.css" for 127.0.0.1 at 2013-06-07 16:14:31 -0400
+Served asset /source-sans-pro/semibold.css - 200 OK (6ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 16:14:31 -0400
+Served asset /source-sans-pro.css - 200 OK (0ms)
+Started GET "/assets/sourcesanspro-regular-webfont.eot" for 127.0.0.1 at 2013-06-07 16:16:12 -0400
+Served asset /sourcesanspro-regular-webfont.eot - 200 OK (8ms)
+Started GET "/assets/sourcesanspro-regular-webfont.ttf" for 127.0.0.1 at 2013-06-07 16:16:12 -0400
+Served asset /sourcesanspro-regular-webfont.ttf - 200 OK (9ms)
+Started GET "/assets/sourcesanspro-regular-webfont.woff" for 127.0.0.1 at 2013-06-07 16:16:12 -0400
+Served asset /sourcesanspro-regular-webfont.woff - 200 OK (9ms)
+Started GET "/assets/sourcesanspro-regular-webfont.svg" for 127.0.0.1 at 2013-06-07 16:16:12 -0400
+Served asset /sourcesanspro-regular-webfont.svg - 200 OK (8ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 16:16:12 -0400
+Compiled source-sans-pro/black.css  (13ms)  (pid 56263)
+Compiled source-sans-pro/bold.css  (35ms)  (pid 56263)
+Compiled source-sans-pro/extralight.css  (10ms)  (pid 56263)
+Compiled source-sans-pro/font-helper.css  (1ms)  (pid 56263)
+Compiled source-sans-pro/italic.css  (6ms)  (pid 56263)
+Compiled source-sans-pro/light.css  (8ms)  (pid 56263)
+Compiled source-sans-pro/regular.css  (6ms)  (pid 56263)
+Compiled source-sans-pro/semibold.css  (6ms)  (pid 56263)
+Compiled source-sans-pro/index.css  (2894ms)  (pid 56263)
+Served asset /source-sans-pro.css - 200 OK (2909ms)
+Started GET "/assets/source-sans-pro/black.css" for 127.0.0.1 at 2013-06-07 16:16:15 -0400
+Served asset /source-sans-pro/black.css - 200 OK (8ms)
+Started GET "/assets/source-sans-pro/bold.css" for 127.0.0.1 at 2013-06-07 16:16:15 -0400
+Served asset /source-sans-pro/bold.css - 200 OK (7ms)
+Started GET "/assets/source-sans-pro/extralight.css" for 127.0.0.1 at 2013-06-07 16:16:15 -0400
+Served asset /source-sans-pro/extralight.css - 200 OK (8ms)
+Started GET "/assets/source-sans-pro/italic.css" for 127.0.0.1 at 2013-06-07 16:16:15 -0400
+Served asset /source-sans-pro/italic.css - 200 OK (8ms)
+Started GET "/assets/source-sans-pro/light.css" for 127.0.0.1 at 2013-06-07 16:16:15 -0400
+Served asset /source-sans-pro/light.css - 200 OK (8ms)
+Started GET "/assets/source-sans-pro/regular.css" for 127.0.0.1 at 2013-06-07 16:16:15 -0400
+Served asset /source-sans-pro/regular.css - 200 OK (11ms)
+Started GET "/assets/source-sans-pro/semibold.css" for 127.0.0.1 at 2013-06-07 16:16:15 -0400
+Served asset /source-sans-pro/semibold.css - 200 OK (34ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 16:16:15 -0400
+Served asset /source-sans-pro.css - 200 OK (0ms)
+Started GET "/assets/sourcesanspro-regular-webfont.eot" for 127.0.0.1 at 2013-06-07 16:16:56 -0400
+Served asset /sourcesanspro-regular-webfont.eot - 200 OK (8ms)
+Started GET "/assets/sourcesanspro-regular-webfont.ttf" for 127.0.0.1 at 2013-06-07 16:16:56 -0400
+Served asset /sourcesanspro-regular-webfont.ttf - 200 OK (9ms)
+Started GET "/assets/sourcesanspro-regular-webfont.woff" for 127.0.0.1 at 2013-06-07 16:16:56 -0400
+Served asset /sourcesanspro-regular-webfont.woff - 200 OK (8ms)
+Started GET "/assets/sourcesanspro-regular-webfont.svg" for 127.0.0.1 at 2013-06-07 16:16:56 -0400
+Served asset /sourcesanspro-regular-webfont.svg - 200 OK (9ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 16:16:56 -0400
+Compiled source-sans-pro/black.css  (14ms)  (pid 56334)
+Compiled source-sans-pro/bold.css  (33ms)  (pid 56334)
+Compiled source-sans-pro/extralight.css  (7ms)  (pid 56334)
+Compiled source-sans-pro/font-helper.css  (2ms)  (pid 56334)
+Compiled source-sans-pro/italic.css  (8ms)  (pid 56334)
+Compiled source-sans-pro/light.css  (7ms)  (pid 56334)
+Compiled source-sans-pro/regular.css  (7ms)  (pid 56334)
+Compiled source-sans-pro/semibold.css  (6ms)  (pid 56334)
+Compiled source-sans-pro/index.css  (203ms)  (pid 56334)
+Served asset /source-sans-pro.css - 200 OK (222ms)
+Started GET "/assets/source-sans-pro/black.css" for 127.0.0.1 at 2013-06-07 16:16:56 -0400
+Served asset /source-sans-pro/black.css - 200 OK (8ms)
+Started GET "/assets/source-sans-pro/bold.css" for 127.0.0.1 at 2013-06-07 16:16:56 -0400
+Served asset /source-sans-pro/bold.css - 200 OK (6ms)
+Started GET "/assets/source-sans-pro/extralight.css" for 127.0.0.1 at 2013-06-07 16:16:56 -0400
+Served asset /source-sans-pro/extralight.css - 200 OK (6ms)
+Started GET "/assets/source-sans-pro/italic.css" for 127.0.0.1 at 2013-06-07 16:16:56 -0400
+Served asset /source-sans-pro/italic.css - 200 OK (6ms)
+Started GET "/assets/source-sans-pro/light.css" for 127.0.0.1 at 2013-06-07 16:16:56 -0400
+Served asset /source-sans-pro/light.css - 200 OK (6ms)
+Started GET "/assets/source-sans-pro/regular.css" for 127.0.0.1 at 2013-06-07 16:16:56 -0400
+Served asset /source-sans-pro/regular.css - 200 OK (6ms)
+Started GET "/assets/source-sans-pro/semibold.css" for 127.0.0.1 at 2013-06-07 16:16:56 -0400
+Served asset /source-sans-pro/semibold.css - 200 OK (33ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 16:16:57 -0400
+Served asset /source-sans-pro.css - 200 OK (0ms)
+Started GET "/assets/sourcesanspro-regular-webfont.eot" for 127.0.0.1 at 2013-06-07 16:18:34 -0400
+Served asset /sourcesanspro-regular-webfont.eot - 200 OK (8ms)
+Started GET "/assets/sourcesanspro-regular-webfont.ttf" for 127.0.0.1 at 2013-06-07 16:18:34 -0400
+Served asset /sourcesanspro-regular-webfont.ttf - 200 OK (10ms)
+Started GET "/assets/sourcesanspro-regular-webfont.woff" for 127.0.0.1 at 2013-06-07 16:18:34 -0400
+Served asset /sourcesanspro-regular-webfont.woff - 200 OK (8ms)
+Started GET "/assets/sourcesanspro-regular-webfont.svg" for 127.0.0.1 at 2013-06-07 16:18:34 -0400
+Served asset /sourcesanspro-regular-webfont.svg - 200 OK (8ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 16:18:34 -0400
+Compiled source-sans-pro/black.css  (12ms)  (pid 56570)
+Compiled source-sans-pro/bold.css  (31ms)  (pid 56570)
+Compiled source-sans-pro/extralight.css  (6ms)  (pid 56570)
+Compiled source-sans-pro/font-helper.css  (1ms)  (pid 56570)
+Compiled source-sans-pro/italic.css  (7ms)  (pid 56570)
+Compiled source-sans-pro/light.css  (6ms)  (pid 56570)
+Compiled source-sans-pro/regular.css  (7ms)  (pid 56570)
+Compiled source-sans-pro/semibold.css  (6ms)  (pid 56570)
+Compiled source-sans-pro/index.css  (571ms)  (pid 56570)
+Served asset /source-sans-pro.css - 200 OK (587ms)
+Started GET "/assets/source-sans-pro/black.css" for 127.0.0.1 at 2013-06-07 16:18:35 -0400
+Served asset /source-sans-pro/black.css - 200 OK (8ms)
+Started GET "/assets/source-sans-pro/bold.css" for 127.0.0.1 at 2013-06-07 16:18:35 -0400
+Served asset /source-sans-pro/bold.css - 200 OK (7ms)
+Started GET "/assets/source-sans-pro/extralight.css" for 127.0.0.1 at 2013-06-07 16:18:35 -0400
+Served asset /source-sans-pro/extralight.css - 200 OK (7ms)
+Started GET "/assets/source-sans-pro/italic.css" for 127.0.0.1 at 2013-06-07 16:18:35 -0400
+Served asset /source-sans-pro/italic.css - 200 OK (8ms)
+Started GET "/assets/source-sans-pro/light.css" for 127.0.0.1 at 2013-06-07 16:18:35 -0400
+Served asset /source-sans-pro/light.css - 200 OK (7ms)
+Started GET "/assets/source-sans-pro/regular.css" for 127.0.0.1 at 2013-06-07 16:18:35 -0400
+Served asset /source-sans-pro/regular.css - 200 OK (7ms)
+Started GET "/assets/source-sans-pro/semibold.css" for 127.0.0.1 at 2013-06-07 16:18:35 -0400
+Served asset /source-sans-pro/semibold.css - 200 OK (35ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 16:18:35 -0400
+Served asset /source-sans-pro.css - 200 OK (0ms)
+Started GET "/assets/sourcesanspro-regular-webfont.eot" for 127.0.0.1 at 2013-06-07 16:22:29 -0400
+Served asset /sourcesanspro-regular-webfont.eot - 200 OK (468ms)
+Started GET "/assets/sourcesanspro-regular-webfont.ttf" for 127.0.0.1 at 2013-06-07 16:22:30 -0400
+Served asset /sourcesanspro-regular-webfont.ttf - 200 OK (9ms)
+Started GET "/assets/sourcesanspro-regular-webfont.woff" for 127.0.0.1 at 2013-06-07 16:22:30 -0400
+Served asset /sourcesanspro-regular-webfont.woff - 200 OK (31ms)
+Started GET "/assets/sourcesanspro-regular-webfont.svg" for 127.0.0.1 at 2013-06-07 16:22:30 -0400
+Served asset /sourcesanspro-regular-webfont.svg - 200 OK (10ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 16:22:30 -0400
+Compiled source-sans-pro/black.css  (13ms)  (pid 57138)
+Compiled source-sans-pro/bold.css  (6ms)  (pid 57138)
+Compiled source-sans-pro/extralight.css  (7ms)  (pid 57138)
+Compiled source-sans-pro/font-helper.css  (1ms)  (pid 57138)
+Compiled source-sans-pro/italic.css  (6ms)  (pid 57138)
+Compiled source-sans-pro/light.css  (6ms)  (pid 57138)
+Compiled source-sans-pro/regular.css  (7ms)  (pid 57138)
+Compiled source-sans-pro/semibold.css  (7ms)  (pid 57138)
+Compiled source-sans-pro/index.css  (164ms)  (pid 57138)
+Served asset /source-sans-pro.css - 200 OK (178ms)
+Started GET "/assets/source-sans-pro/black.css" for 127.0.0.1 at 2013-06-07 16:22:30 -0400
+Served asset /source-sans-pro/black.css - 200 OK (35ms)
+Started GET "/assets/source-sans-pro/bold.css" for 127.0.0.1 at 2013-06-07 16:22:30 -0400
+Served asset /source-sans-pro/bold.css - 200 OK (7ms)
+Started GET "/assets/source-sans-pro/extralight.css" for 127.0.0.1 at 2013-06-07 16:22:30 -0400
+Served asset /source-sans-pro/extralight.css - 200 OK (7ms)
+Started GET "/assets/source-sans-pro/italic.css" for 127.0.0.1 at 2013-06-07 16:22:30 -0400
+Served asset /source-sans-pro/italic.css - 200 OK (6ms)
+Started GET "/assets/source-sans-pro/light.css" for 127.0.0.1 at 2013-06-07 16:22:30 -0400
+Served asset /source-sans-pro/light.css - 200 OK (6ms)
+Started GET "/assets/source-sans-pro/regular.css" for 127.0.0.1 at 2013-06-07 16:22:30 -0400
+Served asset /source-sans-pro/regular.css - 200 OK (6ms)
+Started GET "/assets/source-sans-pro/semibold.css" for 127.0.0.1 at 2013-06-07 16:22:30 -0400
+Served asset /source-sans-pro/semibold.css - 200 OK (6ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 16:22:30 -0400
+Served asset /source-sans-pro.css - 200 OK (0ms)
+Started GET "/assets/sourcesanspro-regular-webfont.eot" for 127.0.0.1 at 2013-06-07 16:24:17 -0400
+Served asset /sourcesanspro-regular-webfont.eot - 200 OK (8ms)
+Started GET "/assets/sourcesanspro-regular-webfont.ttf" for 127.0.0.1 at 2013-06-07 16:24:17 -0400
+Served asset /sourcesanspro-regular-webfont.ttf - 200 OK (9ms)
+Started GET "/assets/sourcesanspro-regular-webfont.woff" for 127.0.0.1 at 2013-06-07 16:24:17 -0400
+Served asset /sourcesanspro-regular-webfont.woff - 200 OK (35ms)
+Started GET "/assets/sourcesanspro-regular-webfont.svg" for 127.0.0.1 at 2013-06-07 16:24:17 -0400
+Served asset /sourcesanspro-regular-webfont.svg - 200 OK (11ms)
+Started GET "/assets/sprockets-require.css" for 127.0.0.1 at 2013-06-07 16:24:17 -0400
+Compiled source-sans-pro/black.css  (13ms)  (pid 57316)
+Compiled source-sans-pro/bold.css  (6ms)  (pid 57316)
+Compiled source-sans-pro/extralight.css  (6ms)  (pid 57316)
+Compiled source-sans-pro/font-helper.css  (1ms)  (pid 57316)
+Compiled source-sans-pro/italic.css  (7ms)  (pid 57316)
+Compiled source-sans-pro/light.css  (8ms)  (pid 57316)
+Compiled source-sans-pro/regular.css  (7ms)  (pid 57316)
+Compiled source-sans-pro/semibold.css  (6ms)  (pid 57316)
+Compiled source-sans-pro/index.css  (199ms)  (pid 57316)
+Compiled sprockets-require.css  (212ms)  (pid 57316)
+Served asset /sprockets-require.css - 200 OK (225ms)
+Started GET "/assets/sass-import.css" for 127.0.0.1 at 2013-06-07 16:24:17 -0400
+Compiled sass-import.css  (6ms)  (pid 57316)
+Served asset /sass-import.css - 200 OK (19ms)
+Started GET "/assets/scss-import.css" for 127.0.0.1 at 2013-06-07 16:24:17 -0400
+Compiled scss-import.css  (7ms)  (pid 57316)
+Served asset /scss-import.css - 200 OK (20ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 16:24:17 -0400
+Compiled source-sans-pro/black.css  (11ms)  (pid 57316)
+Compiled source-sans-pro/bold.css  (6ms)  (pid 57316)
+Compiled source-sans-pro/extralight.css  (6ms)  (pid 57316)
+Compiled source-sans-pro/font-helper.css  (2ms)  (pid 57316)
+Compiled source-sans-pro/italic.css  (6ms)  (pid 57316)
+Compiled source-sans-pro/light.css  (6ms)  (pid 57316)
+Compiled source-sans-pro/regular.css  (6ms)  (pid 57316)
+Compiled source-sans-pro/semibold.css  (32ms)  (pid 57316)
+Compiled source-sans-pro/index.css  (179ms)  (pid 57316)
+Served asset /source-sans-pro.css - 200 OK (193ms)
+Started GET "/assets/source-sans-pro/black.css" for 127.0.0.1 at 2013-06-07 16:24:18 -0400
+Served asset /source-sans-pro/black.css - 200 OK (8ms)
+Started GET "/assets/source-sans-pro/bold.css" for 127.0.0.1 at 2013-06-07 16:24:18 -0400
+Served asset /source-sans-pro/bold.css - 200 OK (6ms)
+Started GET "/assets/source-sans-pro/extralight.css" for 127.0.0.1 at 2013-06-07 16:24:18 -0400
+Served asset /source-sans-pro/extralight.css - 200 OK (6ms)
+Started GET "/assets/source-sans-pro/italic.css" for 127.0.0.1 at 2013-06-07 16:24:18 -0400
+Served asset /source-sans-pro/italic.css - 200 OK (6ms)
+Started GET "/assets/source-sans-pro/light.css" for 127.0.0.1 at 2013-06-07 16:24:18 -0400
+Served asset /source-sans-pro/light.css - 200 OK (6ms)
+Started GET "/assets/source-sans-pro/regular.css" for 127.0.0.1 at 2013-06-07 16:24:18 -0400
+Served asset /source-sans-pro/regular.css - 200 OK (6ms)
+Started GET "/assets/source-sans-pro/semibold.css" for 127.0.0.1 at 2013-06-07 16:24:18 -0400
+Served asset /source-sans-pro/semibold.css - 200 OK (7ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 16:24:18 -0400
+Served asset /source-sans-pro.css - 200 OK (0ms)
+Started GET "/assets/sourcesanspro-regular-webfont.eot" for 127.0.0.1 at 2013-06-07 16:24:32 -0400
+Served asset /sourcesanspro-regular-webfont.eot - 200 OK (10ms)
+Started GET "/assets/sourcesanspro-regular-webfont.ttf" for 127.0.0.1 at 2013-06-07 16:24:32 -0400
+Served asset /sourcesanspro-regular-webfont.ttf - 200 OK (10ms)
+Started GET "/assets/sourcesanspro-regular-webfont.woff" for 127.0.0.1 at 2013-06-07 16:24:32 -0400
+Served asset /sourcesanspro-regular-webfont.woff - 200 OK (31ms)
+Started GET "/assets/sourcesanspro-regular-webfont.svg" for 127.0.0.1 at 2013-06-07 16:24:32 -0400
+Served asset /sourcesanspro-regular-webfont.svg - 200 OK (9ms)
+Started GET "/assets/sprockets-require.css" for 127.0.0.1 at 2013-06-07 16:24:32 -0400
+Compiled source-sans-pro/black.css  (13ms)  (pid 57384)
+Compiled source-sans-pro/bold.css  (7ms)  (pid 57384)
+Compiled source-sans-pro/extralight.css  (6ms)  (pid 57384)
+Compiled source-sans-pro/font-helper.css  (1ms)  (pid 57384)
+Compiled source-sans-pro/italic.css  (6ms)  (pid 57384)
+Compiled source-sans-pro/light.css  (8ms)  (pid 57384)
+Compiled source-sans-pro/regular.css  (7ms)  (pid 57384)
+Compiled source-sans-pro/semibold.css  (8ms)  (pid 57384)
+Compiled source-sans-pro/index.css  (835ms)  (pid 57384)
+Compiled sprockets-require.css  (848ms)  (pid 57384)
+Served asset /sprockets-require.css - 200 OK (864ms)
+Started GET "/assets/sass-import.css" for 127.0.0.1 at 2013-06-07 16:24:33 -0400
+Compiled sass-import.css  (6ms)  (pid 57384)
+Served asset /sass-import.css - 200 OK (20ms)
+Started GET "/assets/scss-import.css" for 127.0.0.1 at 2013-06-07 16:24:33 -0400
+Compiled scss-import.css  (7ms)  (pid 57384)
+Served asset /scss-import.css - 200 OK (21ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 16:24:33 -0400
+Compiled source-sans-pro/black.css  (12ms)  (pid 57384)
+Compiled source-sans-pro/bold.css  (6ms)  (pid 57384)
+Compiled source-sans-pro/extralight.css  (7ms)  (pid 57384)
+Compiled source-sans-pro/font-helper.css  (1ms)  (pid 57384)
+Compiled source-sans-pro/italic.css  (7ms)  (pid 57384)
+Compiled source-sans-pro/light.css  (6ms)  (pid 57384)
+Compiled source-sans-pro/regular.css  (6ms)  (pid 57384)
+Compiled source-sans-pro/semibold.css  (6ms)  (pid 57384)
+Compiled source-sans-pro/index.css  (185ms)  (pid 57384)
+Served asset /source-sans-pro.css - 200 OK (200ms)
+Started GET "/assets/source-sans-pro/black.css" for 127.0.0.1 at 2013-06-07 16:24:33 -0400
+Served asset /source-sans-pro/black.css - 200 OK (8ms)
+Started GET "/assets/source-sans-pro/bold.css" for 127.0.0.1 at 2013-06-07 16:24:33 -0400
+Served asset /source-sans-pro/bold.css - 200 OK (6ms)
+Started GET "/assets/source-sans-pro/extralight.css" for 127.0.0.1 at 2013-06-07 16:24:34 -0400
+Served asset /source-sans-pro/extralight.css - 200 OK (6ms)
+Started GET "/assets/source-sans-pro/italic.css" for 127.0.0.1 at 2013-06-07 16:24:34 -0400
+Served asset /source-sans-pro/italic.css - 200 OK (6ms)
+Started GET "/assets/source-sans-pro/light.css" for 127.0.0.1 at 2013-06-07 16:24:34 -0400
+Served asset /source-sans-pro/light.css - 200 OK (34ms)
+Started GET "/assets/source-sans-pro/regular.css" for 127.0.0.1 at 2013-06-07 16:24:34 -0400
+Served asset /source-sans-pro/regular.css - 200 OK (7ms)
+Started GET "/assets/source-sans-pro/semibold.css" for 127.0.0.1 at 2013-06-07 16:24:34 -0400
+Served asset /source-sans-pro/semibold.css - 200 OK (7ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 16:24:34 -0400
+Served asset /source-sans-pro.css - 200 OK (0ms)
+Started GET "/assets/sourcesanspro-regular-webfont.eot" for 127.0.0.1 at 2013-06-07 16:26:41 -0400
+Served asset /sourcesanspro-regular-webfont.eot - 200 OK (10ms)
+Started GET "/assets/sourcesanspro-regular-webfont.ttf" for 127.0.0.1 at 2013-06-07 16:26:41 -0400
+Served asset /sourcesanspro-regular-webfont.ttf - 200 OK (8ms)
+Started GET "/assets/sourcesanspro-regular-webfont.woff" for 127.0.0.1 at 2013-06-07 16:26:41 -0400
+Served asset /sourcesanspro-regular-webfont.woff - 200 OK (31ms)
+Started GET "/assets/sourcesanspro-regular-webfont.svg" for 127.0.0.1 at 2013-06-07 16:26:41 -0400
+Served asset /sourcesanspro-regular-webfont.svg - 200 OK (897ms)
+Started GET "/assets/sprockets-require.css" for 127.0.0.1 at 2013-06-07 16:26:42 -0400
+Compiled source-sans-pro/black.css  (12ms)  (pid 57512)
+Compiled source-sans-pro/bold.css  (7ms)  (pid 57512)
+Compiled source-sans-pro/extralight.css  (7ms)  (pid 57512)
+Compiled source-sans-pro/font-helper.css  (2ms)  (pid 57512)
+Compiled source-sans-pro/italic.css  (6ms)  (pid 57512)
+Compiled source-sans-pro/light.css  (7ms)  (pid 57512)
+Compiled source-sans-pro/regular.css  (7ms)  (pid 57512)
+Compiled source-sans-pro/semibold.css  (6ms)  (pid 57512)
+Compiled source-sans-pro/index.css  (219ms)  (pid 57512)
+Compiled sprockets-require.css  (233ms)  (pid 57512)
+Served asset /sprockets-require.css - 200 OK (246ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 16:26:42 -0400
+Compiled source-sans-pro/black.css  (12ms)  (pid 57512)
+Compiled source-sans-pro/bold.css  (6ms)  (pid 57512)
+Compiled source-sans-pro/extralight.css  (6ms)  (pid 57512)
+Compiled source-sans-pro/font-helper.css  (1ms)  (pid 57512)
+Compiled source-sans-pro/italic.css  (6ms)  (pid 57512)
+Compiled source-sans-pro/light.css  (6ms)  (pid 57512)
+Compiled source-sans-pro/regular.css  (5ms)  (pid 57512)
+Compiled source-sans-pro/semibold.css  (6ms)  (pid 57512)
+Compiled source-sans-pro/index.css  (149ms)  (pid 57512)
+Served asset /source-sans-pro.css - 200 OK (188ms)
+Started GET "/assets/source-sans-pro/black.css" for 127.0.0.1 at 2013-06-07 16:26:43 -0400
+Served asset /source-sans-pro/black.css - 200 OK (8ms)
+Started GET "/assets/source-sans-pro/bold.css" for 127.0.0.1 at 2013-06-07 16:26:43 -0400
+Served asset /source-sans-pro/bold.css - 200 OK (6ms)
+Started GET "/assets/source-sans-pro/extralight.css" for 127.0.0.1 at 2013-06-07 16:26:43 -0400
+Served asset /source-sans-pro/extralight.css - 200 OK (7ms)
+Started GET "/assets/source-sans-pro/italic.css" for 127.0.0.1 at 2013-06-07 16:26:43 -0400
+Served asset /source-sans-pro/italic.css - 200 OK (6ms)
+Started GET "/assets/source-sans-pro/light.css" for 127.0.0.1 at 2013-06-07 16:26:43 -0400
+Served asset /source-sans-pro/light.css - 200 OK (6ms)
+Started GET "/assets/source-sans-pro/regular.css" for 127.0.0.1 at 2013-06-07 16:26:43 -0400
+Served asset /source-sans-pro/regular.css - 200 OK (6ms)
+Started GET "/assets/source-sans-pro/semibold.css" for 127.0.0.1 at 2013-06-07 16:26:43 -0400
+Served asset /source-sans-pro/semibold.css - 200 OK (6ms)
+Started GET "/assets/source-sans-pro.css" for 127.0.0.1 at 2013-06-07 16:26:43 -0400
+Served asset /source-sans-pro.css - 200 OK (0ms)
