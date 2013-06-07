@@ -1,4 +1,4 @@
-# source-sans-pro-rails
+# source-sans-pro-rails [![Gem Version](https://badge.fury.io/rb/source-sans-pro-rails.png)](http://badge.fury.io/rb/source-sans-pro-rails) [![Build Status](https://travis-ci.org/veracross/source-sans-pro-rails.png)](https://travis-ci.org/veracross/source-sans-pro-rails)
 
 Adds [Adobe's Source Sans Pro font](https://github.com/adobe/source-sans-pro) to Rails via the asset pipeline.
 
@@ -46,4 +46,8 @@ TTF font files were downloaded from Adobe and converted to `woff`, `eot`, and `s
 * The Adobe Source Sans Pro font is licensed under the [SIL Open Font License](http://scripts.sil.org/OFL)
 * This project is licensed under the MIT License.
 
+## Thanks
+
+* Adobe for open sourcing this font
+* [font-awesome-rails](https://github.com/bokmann/font-awesome-rails) for a good example of creating a font gem for the asset pipeline
 
