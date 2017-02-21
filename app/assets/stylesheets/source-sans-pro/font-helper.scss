@@ -3,6 +3,7 @@
    font-family: 'SourceSansPro';
       src: url(font-path("#{$name}.eot"));
       src: url(font-path("#{$name}.eot?#iefix")) format("embedded-opentype"),
+           url(font-path("#{$name}.woff2")) format("woff2"),
            url(font-path("#{$name}.woff")) format("woff"),
            url(font-path("#{$name}.ttf")) format("truetype"),
            url(font-path("#{$name}.svg##{$name}")) format("svg");
