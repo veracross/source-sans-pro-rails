@@ -39,7 +39,7 @@ And so forth. Currently, the supported font variants are:
 
 ## Building
 
-TTF font files were downloaded from Adobe and converted to `woff`, `eot`, and `svg` with [Font Squirrel's web font generator](http://www.fontsquirrel.com/tools/webfont-generator).
+Font files were downloaded directly from the latest release of [https://github.com/adobe-fonts/source-sans-pro](https://github.com/adobe-fonts/source-sans-pro).
 
 ## License
 
