@@ -6,8 +6,8 @@ require 'source-sans-pro/rails/version'
 Gem::Specification.new do |spec|
   spec.name          = 'source-sans-pro-rails'
   spec.version       = SourceSansPro::Rails::VERSION
-  spec.authors       = ['Jeff Fraser']
-  spec.email         = ['jfraser@breuer.com']
+  spec.authors       = ['Jeff Fraser', 'Ben Vogelzang']
+  spec.email         = ['jeff.fraser@veracross.com', 'ben.vogelzang@veracross.com']
   spec.description   = "Add Adobe's Source Sans Pro Font to your Rails app through the asset pipeline"
   spec.summary       = 'The Adobe Source Sans Pro font in the asset pipeline'
   spec.homepage      = 'https://github.com/veracross/source-sans-pro-rails'
