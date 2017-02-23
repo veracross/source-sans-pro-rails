@@ -8,16 +8,19 @@ class SourceSansProTest < ActionDispatch::IntegrationTest
   end
 
   test 'fonts are served' do
-    get '/assets/sourcesanspro-regular-webfont.eot'
+    get '/assets/sourcesanspro-regular.eot'
     assert_response :success
 
-    get '/assets/sourcesanspro-regular-webfont.ttf'
+    get '/assets/sourcesanspro-regular.ttf'
     assert_response :success
 
-    get '/assets/sourcesanspro-regular-webfont.woff'
+    get '/assets/sourcesanspro-regular.woff'
     assert_response :success
 
-    get '/assets/sourcesanspro-regular-webfont.svg'
+    get '/assets/sourcesanspro-regular.woff2'
+    assert_response :success
+
+    get '/assets/sourcesanspro-regular.svg'
     assert_response :success
   end
 
@@ -33,11 +36,12 @@ class SourceSansProTest < ActionDispatch::IntegrationTest
 
   test 'stylesheets contain asset pipeline references to fonts' do
     get '/assets/source-sans-pro.css'
-    assert_match '/assets/sourcesanspro-regular-webfont.eot', response.body
-    assert_match '/assets/sourcesanspro-regular-webfont.eot?#iefix', response.body
-    assert_match '/assets/sourcesanspro-regular-webfont.woff', response.body
-    assert_match '/assets/sourcesanspro-regular-webfont.ttf',  response.body
-    assert_match '/assets/sourcesanspro-regular-webfont.svg#sourcesanspro-regular', response.body
+    assert_match %r{/assets/sourcesanspro-regular(-\w+)?\.eot}, response.body
+    assert_match %r{/assets/sourcesanspro-regular(-\w+)?\.eot\?#iefix}, response.body
+    assert_match %r{/assets/sourcesanspro-regular(-\w+)?\.woff}, response.body
+    assert_match %r{/assets/sourcesanspro-regular(-\w+)?\.woff2}, response.body
+    assert_match %r{/assets/sourcesanspro-regular(-\w+)?\.ttf},  response.body
+    assert_match %r{/assets/sourcesanspro-regular(-\w+)?\.svg#sourcesanspro-regular}, response.body
   end
 
   test 'stylesheet is available in a css sprockets require' do
