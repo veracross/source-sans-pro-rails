@@ -37,6 +37,14 @@ And so forth. Currently, the supported font variants are:
 * Bold (`bold`)
 * Black (`black` - font weight 800)
 
+Add it to your CSS styles:
+
+  font-family: 'SourceSansPro';
+
+And adjust the weight in the same way as with any other font:
+
+  font-weight: 400;
+
 ## Building
 
 Font files were downloaded directly from the latest release of [https://github.com/adobe-fonts/source-sans-pro](https://github.com/adobe-fonts/source-sans-pro).
